@@ -1,0 +1,675 @@
+/*------------version mobile----------------------------------*/
+
+
+body{
+    margin:0;
+    padding:0;   
+}
+
+/*--------------------------page d'accueuil----------------------------*/
+.background{
+    position:absolute;
+    width:100%;
+    height:812px;
+    size: cover;
+    z-index: -1;
+}
+
+.position_titre{
+    display:flex;
+    justify-content: center;
+    margin:0px;
+}
+
+
+.titre{
+    font-family:"vivaldi";
+    font-size:55px;
+    display:flex;
+    justify-content: center;
+    margin:15px;   
+}
+
+.menu{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+ul{
+    margin-left: 0px;
+    list-style-type:none;
+}
+
+.item{
+    text-align:center;
+    font-size:25px;
+    margin:8px;
+}
+
+a{
+    text-decoration:none;
+   color:black;
+}
+
+.slogan{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    margin-top:30px;
+    align-items: flex-end;
+    height:380px;
+}
+
+.debut{
+    margin:15px;
+    font-size:35px;
+    display:block;
+    align-items:flex-end
+}
+
+/*----------------------------- On parle de nous --------------------------------------*/
+
+.nous{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#535050;
+    height:910px;
+}
+
+.position_parle{
+    display:flex;
+    justify-content: center;
+    margin:0px;
+}
+
+.parle{
+    color:#DFDDDD;
+    font-family:"vivaldi";
+    font-size:48px;
+    display:flex;
+    justify-content: center;
+    margin:15px;
+}
+
+.pub{
+    display:flex;
+    flex-direction:column;
+}
+
+.article1{
+    text-align:center;
+    color:#DFDDDD;
+    margin:3px;
+    padding:10px;
+    font-size:19px;
+}
+.pub{
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+.box{
+    display:flex;
+    border-radius: 20px;
+    margin:25px;
+    border:  solid 1px;
+    width:90px;
+    height:40px;
+   
+}
+
+.trip{
+    margin-left:6px;
+    line-height:2px;
+}
+
+
+.img_resto{
+    margin-top:8px;
+    width:100%; 
+}
+
+.article2{
+    text-align:center;
+    color:#DFDDDD;
+    margin:5px;
+    margin-top:15px;
+    padding:10px;
+    font-size:19px;
+}
+
+.info{
+    font-size:17px;
+    margin-left:12px;
+    line-height:5px;
+}
+
+/*-----------------------------Vers l'infini-------------------------------------*/
+
+.troisieme_page{
+    background-color:#DBD7D7;
+    height:950px;
+
+}
+
+.position_infini{
+    display:flex;
+    justify-content: center;
+    margin:0px;
+}
+
+.infini{
+    text-align:center;
+    font-family:"vivaldi";
+    font-size:45px;
+    display:flex;
+    justify-content: center;
+    margin:15px;
+}
+
+.interieur{
+    margin-top:8px;
+    width:100%;
+    height:320px
+}
+
+.article3{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:5px;
+    margin-top:8px;
+    padding:10px;
+    font-size:19px;
+}
+
+/*----------------------- au dela ----------------------------*/
+
+.quatrieme_page{
+    background-color:#262424;
+    width: 100%;
+    height:600px;
+}
+
+.dela{
+    margin-top:30px;
+    color:#E4E2E2;
+    text-align:center;
+    font-family:"vivaldi";
+    font-size:45px;
+    display:flex;
+    justify-content: center;
+    margin:15px;
+    margin-top:30px;
+}
+
+.position_dela{
+    display:flex;
+    justify-content: center;
+    margin:0px;
+}
+
+
+.reserve{
+    color:#E4E2E2;
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+}
+
+.box2{
+    margin-top:15px;
+    border: solid 1px #E4E2E2;
+    border-radius:35px;
+    width:120px
+}
+
+.contact{
+    font-size:18px;
+    color:#E4E2E2;
+    margin-left:6px;
+    line-height:2px;
+}
+
+.article4{
+    text-align:center;
+    color:#DFDDDD;
+    margin:5px;
+    margin-top:15px;
+    padding:10px;
+    font-size:19px;
+}
+
+
+.article5{
+    text-align:center;
+    color:#DFDDDD;
+    margin:5px;
+    margin-top:15px;
+    padding:10px;
+    font-size:19px;
+}
+
+.bouton{
+    margin-bottom:15px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.bas_page{
+    background-color:white;
+    width:100%;
+    height: 90px;
+}
+.position_logo{
+    display:flex;
+    justify-content:center;
+
+}
+
+.logo{
+    margin-top:5px;
+    padding:15px;
+    width:55px;
+}
+
+/*------------Restaurant----------------------------*/
+
+
+
+.sushi{
+    position:absolute;
+    width:100%;
+    height:800px;
+    margin-right:50px;
+    z-index: -1;
+}
+
+
+.resto_menu{
+    margin-top:14px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menu2{
+    margin-top:10px;
+}
+
+.items{
+    color:#DFDDDD;;
+    text-align:center;
+    margin-top:55px;
+    padding:8px;
+    margin:14px;
+    font-size:35px;
+}
+.resto_slogan{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    
+}
+
+.phrase-accroche{
+    color:#DFDDDD;;
+    margin:0px;
+    margin-top:135px;
+    margin-bottom:50px;
+    font-size:35px
+}
+/*------------------plat-------------------------------*/
+
+
+.couleur{
+    margin:0;
+    background-color:#535050;
+    width:100%;
+    height:1450px;
+}
+
+.plat{
+    display:flex;
+    flex-direction: column;
+}
+.position_plat{
+    display: flex;
+    flex-direction:column;
+}
+.position_carte{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content:center;
+}
+
+.carte{
+    color:#DFDDDD;
+    font-size:35px;
+    margin-top:45px;
+    text-align:center;
+}
+
+.menus{
+    width:100%;
+}
+
+.nom_tarif{
+    color:#DFDDDD;
+    font-size:20px;
+    text-align:center;
+}
+
+.color{
+    margin:0;
+    background-color:#535050;
+    width:100%;
+    height:800px;
+}
+
+.menu_boissons{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.nom_boissons{
+    color:#DFDDDD;
+    margin:14px;
+    font-size:20px;
+}
+
+.information{
+    text-align:center;
+    color:#DFDDDD;
+    margin:14px;
+    font-size: 20px;
+}
+/*------------------page de contact----------------------*/
+
+.position_titres{
+    margin-bottom: 100px;
+    display:flex;
+    justify-content: center;
+    height:50px; 
+}
+
+
+.titres{
+    color:#DFDDDD;
+    font-family:"vivaldi";
+    font-size:55px;
+    display:flex;
+    justify-content: center;
+    margin:15px;
+    
+}
+
+.contactez{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:#535050;
+    height:700px;
+}
+
+.formulaire{
+    color:#DFDDDD;
+    font-size:20px;
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+    justify-content:center;
+}
+
+input{
+    margin:15px;
+}
+
+button{
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contact_accueil{
+    display:flex;
+    justify-content:center;
+
+}
+
+.bouton_accueil{
+    margin-top:20px;
+   font-size:22px;
+}
+
+
+@media(min-width:800px){
+    .titre{
+        font-size:120px;
+    }
+
+    .menu{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .item{
+        font-size:35px;
+        display: inline-block;
+        justify-content:center;
+    
+    }
+
+    .item::after{
+        content:"";
+        display:block;
+        width: 100%;
+        height:1.8px;
+        background-color:#F2D0A7;
+        transform:scale(0) ; 
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    .item:hover::after{
+        transform:scale(1); 
+    }
+    
+    .item:hover{
+        color:#f38c0e;
+    }
+
+    .background{
+        height:1000px;
+    }
+    .slogan{
+        height:550px;
+    }
+
+    
+    .nous{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        background-color:#535050;
+        height:auto;
+        width:100%;
+    }
+
+    .parle{
+        margin-top:50px;
+        font-size:70px;
+    }
+
+    .article1{
+        font-size: 35px;
+    }
+
+    .article2{
+        font-size: 35px;
+    }
+
+    .infini{
+     font-size:70px ;
+    }
+
+    .article3{
+        justify-content:center;
+        font-size:28px;
+    }
+
+    .troisieme_page{
+        height:1100px;
+    }
+
+    .interieur{
+        margin-left:15%;
+        width:70%;
+        height:500px;
+    }
+
+    .menu2{
+        margin-top:10px;
+    }
+
+
+    .sushi{
+        position:absolute;
+        width:100%;
+        height:1000px;
+        margin-right:50px;
+        z-index: -1;
+    }
+    
+    .items{
+        display:inline-block;
+        flex-direction:row;
+        font-size:35px;
+    }
+
+    .items::after{
+        content:"";
+        display:block;
+        width: 100%;
+        height:1.8px;
+        background-color:#F2D0A7;
+        transform:scale(0) ; 
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    .items:hover::after{
+        transform:scale(1); 
+    }
+    
+    .items:hover{
+        color:#f38c0e;
+    }
+    .resto_slogan{
+        display:flex;
+        justify-content:center;
+        align-items:flex-end;
+        
+    }
+    
+    .phrase-accroche{
+        color:#DFDDDD;;
+        margin:0px;
+        margin-top:135px;
+        margin-bottom:50px;
+        font-size:35px
+    }
+
+    .couleur{
+        margin-top:150px;
+        height:500px;
+
+    }
+
+    .plat{
+        
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+
+    .nom_tarif{
+        font-size:35px;
+    }
+
+    .menus{
+        width:250px;
+    }
+
+    .color{
+        height:1000px;
+    }
+
+    .carte{
+        font-size:55px;
+    }
+
+    .nom_boissons{
+        font-size:28px;
+    }
+
+    .information{
+        font-size:28px;
+    }
+
+    .contactez{
+        height: 1000px;
+    }
+
+    .titres{
+        font-size:70px;
+    }
+
+    .formulaire{
+      
+        font-size:38px;
+       
+    }
+    
+    input{
+        font-size:38px;  
+    }
+    
+    button{
+        font-size:35px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+  
+
+
